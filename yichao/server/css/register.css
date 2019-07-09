@@ -1,0 +1,82 @@
+#bodyer .box {
+  width: 1190px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  border: 1px solid #eee; }
+  #bodyer .box h2 {
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    color: #333;
+    padding: 0 0 0 15px;
+    background: #dedbdb; }
+  #bodyer .box .left {
+    width: 679px;
+    height: 380px;
+    float: left;
+    border: 1px solid #eee; }
+    #bodyer .box .left .txt {
+      margin-top: 10px;
+      height: 53px;
+      font: 12px/26px "";
+      width: 470px;
+      margin: 0 auto; }
+      #bodyer .box .left .txt:nth-child(1) {
+        margin-top: 65px; }
+      #bodyer .box .left .txt span {
+        display: inline-block;
+        width: 120px;
+        text-align: right;
+        line-height: 26px;
+        padding-right: 5px;
+        font-size: 14px; }
+      #bodyer .box .left .txt input {
+        width: 190px;
+        color: #666;
+        height: 24px;
+        line-height: 24px; }
+      #bodyer .box .left .txt p {
+        margin-left: 125px; }
+    #bodyer .box .left .btnn {
+      text-align: center; }
+      #bodyer .box .left .btnn input {
+        width: 136px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        color: #fff;
+        font-style: 14px;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-left: 49px;
+        border: none;
+        cursor: pointer;
+        background: #aa2e31;
+        outline: none; }
+      #bodyer .box .left .btnn p {
+        color: #999;
+        padding-left: 3px; }
+  #bodyer .box .right {
+    float: right;
+    width: 505px;
+    height: 380px;
+    text-align: center; }
+    #bodyer .box .right .p1 {
+      margin-top: 145px; }
+      #bodyer .box .right .p1 a {
+        font-size: 12px;
+        color: #333;
+        background: #efefef;
+        cursor: pointer;
+        padding: 5px 15px;
+        border-radius: 5px;
+        border: 1px #dedede solid; }
+      #bodyer .box .right .p1 a:hover {
+        color: #aa2e31; }
+    #bodyer .box .right .p2 {
+      margin-top: 20px; }
+      #bodyer .box .right .p2 a {
+        color: #333; }
+      #bodyer .box .right .p2 a:hover {
+        color: #aa2e31; }

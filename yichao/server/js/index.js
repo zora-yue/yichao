@@ -11,6 +11,8 @@ $(function(){
             this.gucci=$(".gucci").children("ul");
             this.louti=$(".kuai");
             this.top1=$(".top1");
+            this.aspan=$(".f2-t").find("span");
+            console.log(this.aspan)
             this.init();
             this.hover();
         }
@@ -84,16 +86,24 @@ $(function(){
                         this.addEvent(0)
                     }
                     if(this.res[i].id=="2"){
+                        this.box.eq(3).html(str)
+                        this.addEvent(3)
+                    }
+                    if(this.res[i].id=="3"){
+                        this.box.eq(4).html(str)
+                        this.addEvent(4)
+                    }
+                    if(this.res[i].id=="4"){
+                        this.box.eq(5).html(str)
+                        this.addEvent(5)
+                    }
+                    if(this.res[i].id=="1-2"){
                         this.box.eq(1).html(str)
                         this.addEvent(1)
                     }
-                    if(this.res[i].id=="3"){
+                    if(this.res[i].id=="1-3"){
                         this.box.eq(2).html(str)
                         this.addEvent(2)
-                    }
-                    if(this.res[i].id=="4"){
-                        this.box.eq(3).html(str)
-                        this.addEvent(3)
                     }
                     // this.addEvent()
             }
@@ -158,8 +168,20 @@ $(function(){
             this.louti.children("li").click(function(){
                 that.kuai()
             })
+            this.aspan.on("mouseover",function(){
+                console.log(this)
+                that.show();
+            })
+            this.aspan.on("mouseout",function(){
+                that.hide();
+            })
         }
-        
+        show(){
+            
+        }
+        hide(){
+
+        }
         kuai(){
             $("html").animate({
                 scrollTop:$(".f1").offset().top
