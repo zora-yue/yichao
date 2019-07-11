@@ -1,9 +1,9 @@
 $(function(){
-    $("#top").load("public.html .ding",function(){
+    $("#top").load("common/public.html .ding",function(){
         new Public;
     })
-    $("#header").load("public.html .tou")
-    $("#footer").load("public.html .footbox")
+    $("#header").load("common/public.html .tou")
+    $("#footer").load("common/public.html .footbox")
 
 
     class Login{

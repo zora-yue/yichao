@@ -66,7 +66,7 @@
         
         if(left != undefined && left.length>0 && right != undefined && right.length>0){
             // 左右按钮的功能
-            console.log("有左右按钮")
+            // console.log("有左右按钮")
             // B1.绑定点击事件
             left.click(leftEvent);
             right.click(rightEvent);
@@ -74,7 +74,7 @@
 
         if(list){
             // list的生成和布局
-            console.log("有list按钮")
+            // console.log("有list按钮")
             // L1.根据图片的数量，生成对应的li
             var str = "";
             for(var i=0;i<items.length;i++){

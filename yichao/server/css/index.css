@@ -190,15 +190,15 @@ nav {
         position: absolute;
         left: 0;
         top: 40px;
-        z-index: 10; }
+        z-index: 100; }
         nav .default .nav-list .box1 li {
-          width: 198px;
-          height: 49px;
+          width: 200px;
+          height: 50px;
           border: 1px solid #ddd;
           border-top: none;
-          position: relative;
           background: #fff;
-          line-height: 49px; }
+          line-height: 49px;
+          box-sizing: border-box; }
           nav .default .nav-list .box1 li .list2 {
             display: block;
             display: flex; }
@@ -238,7 +238,8 @@ nav {
             border: 1px solid #b81c2b;
             position: absolute;
             left: 198px;
-            display: none; }
+            display: none;
+            top: 0; }
             nav .default .nav-list .box1 li .cl-content dl {
               width: 485px;
               height: 336px;
@@ -319,38 +320,38 @@ nav {
 #banner1 {
   width: 100%;
   height: 500px;
-  position: relative;
   overflow: hidden; }
-  #banner1 a {
-    width: 1920px;
-    height: 500px;
-    left: 50%;
-    margin-left: -960px;
-    position: absolute;
-    left: -100%; }
-    #banner1 a img {
+  #banner1 .imgbox {
+    margin-left: -250px;
+    position: relative; }
+    #banner1 .imgbox a {
       width: 1920px;
-      height: 500px; }
-  #banner1 a:nth-child(1) {
-    left: 50%; }
-  #banner1 .left {
-    width: 50px;
-    height: 50px;
-    background: #424242 url(../image/left.png) no-repeat;
-    position: absolute;
-    left: 320px;
-    z-index: 40;
-    top: 225px;
-    display: none; }
-  #banner1 .right {
-    width: 50px;
-    height: 50px;
-    background: #424242 url(../image/right.png) no-repeat;
-    position: absolute;
-    right: 130px;
-    top: 225px;
-    z-index: 40;
-    display: none; }
+      height: 500px;
+      position: absolute;
+      left: 1920px; }
+      #banner1 .imgbox a img {
+        width: 1920px;
+        height: 500px; }
+    #banner1 .imgbox a:nth-child(1) {
+      left: 0; }
+    #banner1 .imgbox .left {
+      width: 50px;
+      height: 50px;
+      background: #424242 url(../image/left.png) no-repeat;
+      position: absolute;
+      left: 580px;
+      z-index: 40;
+      top: 225px;
+      display: none; }
+    #banner1 .imgbox .right {
+      width: 50px;
+      height: 50px;
+      background: #424242 url(../image/right.png) no-repeat;
+      position: absolute;
+      right: 130px;
+      top: 225px;
+      z-index: 40;
+      display: none; }
 
 #f1 {
   height: auto;
@@ -513,11 +514,15 @@ nav {
 #f7 .f7-b {
   margin-top: 10px;
   position: relative;
-  height: 500px; }
+  height: 500px;
+  overflow: hidden; }
   #f7 .f7-b .imgbox {
     position: absolute;
     height: auto;
-    text-align: center; }
+    text-align: center;
+    left: 1190px; }
+    #f7 .f7-b .imgbox:nth-child(1) {
+      left: 0; }
     #f7 .f7-b .imgbox p {
       width: 100%;
       height: 100px;

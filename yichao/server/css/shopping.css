@@ -1,0 +1,241 @@
+#cont {
+  width: 1190px;
+  margin: 0 auto; }
+
+.wu {
+  display: none;
+  margin: 0 auto;
+  width: 1190px;
+  height: 100px;
+  background: #f8f8f8;
+  line-height: 80px;
+  border: 1px solid #c6c9cc;
+  text-align: center; }
+
+#cont .list {
+  width: 1190px;
+  height: 39px;
+  border-top: 5px solid #4a9bd7;
+  background: #f7f7f7;
+  line-height: 39px;
+  color: #505966; }
+
+#cont .list span {
+  font-size: 12px;
+  display: block;
+  float: left;
+  text-align: center; }
+
+#cont .list .list1 {
+  width: 443px; }
+
+#cont .list .list2 {
+  width: 102px; }
+
+#cont .list .list3 {
+  width: 165px; }
+
+#cont .list .list4 {
+  width: 100px; }
+
+#cont .list .list5 {
+  width: 115px; }
+
+#cont .list .list6 {
+  width: 147px; }
+
+#cont .list .list7 {
+  width: 116px; }
+
+#cont .main {
+  width: 1188px;
+  border: 1px solid #c6c9cc; }
+
+#cont .main .m-l {
+  width: 1072px;
+  border-right: 1px solid #c6c9cc; }
+
+#cont .main .m-l .goods {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center; }
+
+#cont .main .m-l .goods .goods1 {
+  width: 443px;
+  margin-left: 10px; }
+
+#cont .main .goods1 img {
+  vertical-align: middle;
+  border: 1px solid #c6c9cc;
+  width: 60px;
+  height: 60px; }
+
+#cont .main .goods1 span {
+  display: inline-block;
+  line-height: 17px;
+  margin-top: 3px;
+  height: 17px;
+  width: 280px;
+  overflow: hidden; }
+
+#cont .main .m-l .goods .ji {
+  width: 102px;
+  padding: 25px 0 6px 0; }
+
+#cont .main .m-l .goods .ji i {
+  color: #fff;
+  background: red;
+  padding: 0 3px;
+  font-size: 12px; }
+
+#cont .main .m-l .goods .money {
+  width: 165px;
+  min-height: 40px;
+  position: relative;
+  font-size: 14px; }
+
+#cont .main .m-l .goods .money s {
+  color: #ccc;
+  position: absolute;
+  top: -10px;
+  left: 48px;
+  text-decoration: line-through; }
+
+#cont .main .m-l .goods .money span {
+  position: absolute;
+  bottom: 0;
+  left: 25px; }
+
+#cont .main .m-l .goods .money b {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 75px;
+  background: #4a9bd7;
+  color: #fff;
+  padding: 0 5px; }
+
+#cont .main .m-l .goods .num {
+  width: 100px; }
+
+#cont .main .m-l .goods .xiaoji {
+  width: 115px;
+  color: red;
+  text-align: center; }
+
+#cont .main .m-l .goods .buy {
+  width: 140px;
+  position: relative;
+  font-size: 14px;
+  text-align: center; }
+
+#cont .main .m-l .goods .buy a {
+  padding: 5px 8px;
+  color: #333;
+  background: #f6f6f6;
+  border: 1px solid #c6c9cc; }
+
+#cont .main .m-l .goods .buy span {
+  color: #ccc;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+  cursor: pointer; }
+
+#cont .main .m-r {
+  float: left;
+  text-align: center;
+  width: 114px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 20px; }
+
+#cont .go {
+  text-align: center;
+  margin-top: 10px; }
+
+#cont .go a {
+  color: #100239;
+  width: 120px;
+  height: 40px;
+  background: #f6f6f6;
+  border: 1px solid #666;
+  display: block; }
+
+#cont .all {
+  margin: 10px auto 0;
+  background: #f9f9f9;
+  width: 1188px;
+  height: 68px;
+  border: 1px solid #d7dfe5;
+  font-size: 12px;
+  color: #505966; }
+
+#cont .all ul {
+  float: left;
+  height: 100%;
+  line-height: 68px; }
+
+#cont .all ul li {
+  float: left;
+  margin-left: 10px; }
+
+#cont .qian {
+  float: left;
+  margin-left: 400px;
+  height: 68px;
+  color: #505966;
+  width: 310px; }
+
+#cont .qian p {
+  display: flex;
+  justify-content: space-around; }
+
+#cont .qian .m1 .liang {
+  color: #4a9bd6; }
+
+#cont .qian .m2 {
+  height: 36px;
+  line-height: 36px;
+  text-align: center; }
+
+#cont .qian .m2 span:nth-child(1) {
+  width: 170px;
+  font-size: 14px;
+  color: #de2f21;
+  font-weight: 800; }
+
+#cont .qian .m2 span:last-child {
+  width: 170px;
+  font-size: 26px;
+  color: #de2f21;
+  font-weight: 800; }
+
+#cont .jiesuan {
+  float: right;
+  margin: 14px 13px 0 0; }
+
+#cont .jiesuan a {
+  height: 43px;
+  width: 151px;
+  cursor: pointer;
+  background: #ef7a30;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 43px;
+  font-size: 16px; }
+
+#footer {
+  padding-top: 30px; }
+
+#footer p {
+  width: 1190px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 32px;
+  color: #333; }
+
+#footer p a {
+  color: #333; }

@@ -1,0 +1,181 @@
+#goods {
+  height: 1000px; }
+  #goods .default {
+    width: 1190px;
+    margin: 0 auto; }
+    #goods .default h3 {
+      font-size: 12px;
+      color: #333;
+      padding: 10px 0 10px; }
+    #goods .default .zuo {
+      float: left;
+      position: relative; }
+      #goods .default .zuo .sbox {
+        position: relative;
+        float: left;
+        z-index: 99;
+        cursor: crosshair;
+        border: 1px solid #ddd;
+        width: 398px;
+        height: 398px; }
+        #goods .default .zuo .sbox img {
+          width: 398px;
+          height: 398px; }
+        #goods .default .zuo .sbox span {
+          position: absolute;
+          border: 1px solid #ddd;
+          left: 0;
+          top: 0;
+          display: none;
+          background: rgba(255, 255, 255, 0.4); }
+      #goods .default .zuo ul {
+        width: 360px;
+        height: 64px; }
+        #goods .default .zuo ul li {
+          display: inline-block;
+          width: 64px;
+          height: 64px;
+          margin: 0 10px 0 0;
+          overflow: hidden;
+          cursor: pointer;
+          margin-top: 10px;
+          border: 2px solid #ddd; }
+          #goods .default .zuo ul li img {
+            width: 64px;
+            height: 64px; }
+        #goods .default .zuo ul li.active {
+          border: 2px solid red; }
+      #goods .default .zuo .bbox {
+        position: absolute;
+        top: 0;
+        left: 408px;
+        display: none;
+        width: 525px;
+        border: 1px solid #999;
+        height: 370px;
+        overflow: hidden; }
+        #goods .default .zuo .bbox img {
+          position: absolute; }
+    #goods .default .zhong {
+      float: left; }
+      #goods .default .zhong h2 {
+        font-size: 16px;
+        font-weight: bold;
+        overflow: hidden;
+        padding: 0px 16px; }
+      #goods .default .zhong .money {
+        padding: 20px 16px; }
+        #goods .default .zhong .money span {
+          font-size: 14px;
+          color: #999; }
+          #goods .default .zhong .money span s {
+            text-decoration: line-through; }
+        #goods .default .zhong .money b {
+          font-size: 24px;
+          color: #bc1b0d;
+          font-weight: bold;
+          margin-right: 22px; }
+      #goods .default .zhong .cc {
+        margin: 0 16px;
+        padding: 16px 0;
+        border-top: 1px dashed #ccc;
+        border-bottom: 1px dashed #ccc; }
+        #goods .default .zhong .cc li {
+          margin-top: -10px;
+          color: #333;
+          width: 160px;
+          float: left;
+          text-align: center;
+          border-right: 1px solid #ccc; }
+          #goods .default .zhong .cc li:last-child {
+            border: 0; }
+          #goods .default .zhong .cc li em {
+            color: #bc1b0d; }
+      #goods .default .zhong dl {
+        margin-top: 20px;
+        height: 30px; }
+        #goods .default .zhong dl dt {
+          float: left;
+          line-height: 24px;
+          color: #555;
+          padding: 0px 15px 0px 15px; }
+        #goods .default .zhong dl dd {
+          float: left;
+          height: 20px;
+          color: #000000;
+          line-height: 20px;
+          padding: 0 10px;
+          margin: 1px 7px 7px 1px;
+          background: #fff;
+          border: 1px solid #e5e5e5;
+          cursor: pointer; }
+      #goods .default .zhong .yuyue {
+        padding: 18px 10px 0 10px; }
+        #goods .default .zhong .yuyue a {
+          display: inline-block;
+          vertical-align: top; }
+          #goods .default .zhong .yuyue a:nth-child(2) {
+            background: url(../image/car2.png) no-repeat;
+            border: 1px solid #bc1b0d;
+            border-radius: 5px;
+            margin-left: 22px;
+            font: 18px/43px "";
+            width: 165px;
+            height: 43px;
+            text-align: center;
+            color: #bc1b0d; }
+        #goods .default .zhong .yuyue p {
+          font: 12px/20px "";
+          color: #999; }
+          #goods .default .zhong .yuyue p i {
+            color: #000; }
+      #goods .default .zhong .zhong-b {
+        padding: 18px 0 0 10px;
+        border-top: 1px dashed #eee;
+        font: 12px/22px ""; }
+        #goods .default .zhong .zhong-b p {
+          color: #000;
+          font-weight: bold; }
+        #goods .default .zhong .zhong-b ul li {
+          float: left;
+          list-style: disc;
+          color: #999;
+          margin-right: 28px; }
+    #goods .default .you {
+      float: right;
+      background: #f2f2f2; }
+      #goods .default .you img {
+        width: 200px;
+        height: 170px; }
+      #goods .default .you h3 {
+        height: 30px;
+        width: 180px;
+        text-align: left;
+        font-weight: bold;
+        color: #333;
+        margin-top: 10px;
+        font-size: 16px;
+        margin-left: 30px; }
+      #goods .default .you p {
+        height: 20px;
+        width: 170px;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 14px;
+        color: #666; }
+      #goods .default .you .city2 {
+        width: 200px;
+        margin: 20px 20px 0 30px;
+        text-align: left;
+        height: 230px;
+        overflow: auto;
+        font-size: 14px;
+        color: #666; }
+        #goods .default .you .city2 li {
+          float: left;
+          width: 80px;
+          padding: 0 5px;
+          height: 30px;
+          cursor: pointer; }
+          #goods .default .you .city2 li a {
+            color: #333; }

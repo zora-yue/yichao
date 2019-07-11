@@ -1,7 +1,7 @@
 $(function(){
-    $("#top").load("public.html .ding");
-    $("#header").load("public.html .tou");
-    $("#footer").load("public.html .footbox");
+    $("#top").load("common/public.html .ding");
+    $("#header").load("common/public.html .tou");
+    $("#footer").load("common/public.html .footbox");
 
 
     class Register{
@@ -11,6 +11,23 @@ $(function(){
             this.pass2=$(".pass2");
             this.btn=$(".btn");
             this.init();
+            this.add();
+        }
+        add(){
+            this.user.on("mousedown",function(){
+                $(this).next().html("请输入手机/邮箱").css({color:"#ccc"});
+                $(this).blur(function(){
+                    if($(this).val()==""){
+                        $(this).next().html("请输入邮箱/手机号码！").css({color:"red"});
+                    }
+                })
+            })
+            this.pass1.on("mousedown",function(){
+                $(this).next().html("6-16位字符，可用数字、字母或符号的组合").css({color:"#ccc"})
+            })
+            this.pass2.on("mousedown",function(){
+                $(this).next().html("请再次输入登录密码，两次输入必须一致").css({color:"#ccc"})
+            })
         }
         init(){
             var that=this;

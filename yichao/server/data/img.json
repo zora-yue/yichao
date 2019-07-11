@@ -2,9 +2,11 @@
     {"id":"1","mainimg":"https://img.yichao.cn:442//uploads/gimages/D9BCB020DFCB21B117408D0680843793700BAB99.jpg","goods":[
         {
             "img":"https://img.yichao.cn:442//uploads/space/632AE794E515456212ABEDC7C947AF2DB9779544.jpg",
+            "img1":["https://img.yichao.cn:442//uploads/goods/2018050814470786_ori.jpg","https://img.yichao.cn:442//uploads/goods/2018050814481382_sml.jpg","https://img.yichao.cn:442//uploads/goods/2018050814480813_sml.jpg","https://img.yichao.cn:442//uploads/goods/2018050814475957_sml.jpg"],
             "name":"FG80102镜框",
             "price":"458.00元",
             "tcp":"暂无评论",
+            "txt":"亿超 纯钛 全框眼镜框 黑色 休闲商务男款 FG80102C1",
             "bm":"20191"
         },
         {
@@ -23,9 +25,11 @@
         },
         {
             "img":"https://img.yichao.cn:442//uploads/space/7191A942C1CBBD216191537E63C2AE69D924D3D3.jpg",
+            "img1":["https://img.yichao.cn:442//uploads/goods/2018011714290118_ori.jpg","https://img.yichao.cn:442//uploads/goods/2018011714291037_sml.jpg","https://img.yichao.cn:442//uploads/goods/2018011714290771_sml.jpg"],
             "name":"FG80056镜框",
             "price":"458.00元",
             "tcp":"暂无评论",
+            "txt":" 亿超 板材+钛 全框眼镜框 玳瑁框金腿 潮流男士 FG80056C04",
             "bm":"20194"
         },
         {

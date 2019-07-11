@@ -71,7 +71,7 @@ nav{width:100%;height: 40px;background: #222;font:14px/40px "";
     .default{@include default;
         .nav-list{float: left;position: relative;
         .sort{color:#fff;display: block;width: 200px;height: 40px;line-height: 36px;background: #b91c2b;text-align: center;}
-        .box1{text-align: center;height:500px;position: absolute;left:0;top:40px;z-index: 10;
+        .box1{text-align: center;height:500px;position: absolute;left:0;top:40px;z-index: 10;display:none;
             li{width:198px;height:49px;border:1px solid #ddd;border-top:none;position: relative;background:#fff;line-height:49px;
                 .list2{display: block;display:flex;
                 i{display:inline-block;width:35px;height:20px;background: url(../image/icon.png) no-repeat;margin:10px 10px 0 35px;}

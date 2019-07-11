@@ -2,7 +2,9 @@
         constructor(){
             this.ali=$(".nav").children("li");
             this.top1=$(".top1");
+            this.smallcar=$(".car").children("em")
             this.hover();
+            this.change();
         }
         hover(){
             this.ali.hover(function(){
@@ -24,5 +26,21 @@
                 $(this).children("div").css("display","none")
             })
         }
+        change(){
+            this.num=localStorage.getItem("shangpin");
+            if(this.num){
+                this.num=JSON.parse(localStorage.getItem("shangpin"));
+                var s=0;
+                for(var i=0;i<this.num.length;i++){
+                    s+=parseInt(this.num[i].num)
+                }
+                this.smallcar.html(s)
+            }
+        }
     }
     
+    class Search{
+        constructor(){
+            
+        }
+    }

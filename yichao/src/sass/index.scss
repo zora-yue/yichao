@@ -70,8 +70,9 @@ nav{width:100%;height: 40px;background: #222;font:14px/40px "";
     .default{@include default;
         .nav-list{float: left;position: relative;
         .sort{color:#fff;display: block;width: 200px;height: 40px;line-height: 36px;background: #b91c2b;text-align: center;}
-        .box1{text-align: center;height:500px;position: absolute;left:0;top:40px;z-index: 10;
-            li{width:198px;height:49px;border:1px solid #ddd;border-top:none;position: relative;background:#fff;line-height:49px;
+        .box1{text-align: center;height:500px;position: absolute;left:0;top:40px;z-index: 100;
+            li{width:200px;height:50px;border:1px solid #ddd;border-top:none;background:#fff;line-height:49px;
+                box-sizing:border-box;
                 .list2{display: block;display:flex;
                 i{display:inline-block;width:35px;height:20px;background: url(../image/icon.png) no-repeat;margin:10px 10px 0 35px;}
                 i.icon1{background-position: 0 0;}
@@ -86,7 +87,7 @@ nav{width:100%;height: 40px;background: #222;font:14px/40px "";
                 i.icon10{background-position: 0 -170px;}
                 b{margin-left:40px;color: #eee;}
             }
-                .cl-content{width: 768px;height: 499px;background: #fff;border: 1px solid #b81c2b;position: absolute;left:198px;display:none;
+                .cl-content{width: 768px;height: 499px;background: #fff;border: 1px solid #b81c2b;position: absolute;left:198px;display:none;top:0;
             dl{width: 485px;height: 336px;line-height: 30px;margin: 8px 0 0 15px;
                 dt{font:700 13px/30px "";float: left;width: 65px;border-top: 1px solid #dddad9;}
                 dd{float: left;width:420px;padding:5px 0 5px;border-top: 1px solid #dddad9;
@@ -117,13 +118,15 @@ nav{width:100%;height: 40px;background: #222;font:14px/40px "";
 }
 
 
-#banner1{width:100%;height:500px;position: relative;overflow: hidden;
-    a{width:1920px;height:500px;left: 50%;margin-left: -960px;position: absolute;left: -100%;
+#banner1{width:100%;height:500px;overflow: hidden;
+    .imgbox{margin-left:-250px;position: relative;
+    a{width:1920px;height:500px;position: absolute;left: 1920px;
     img{width:1920px;height:500px;}
     }
-    a:nth-child(1){left:50%;}
-    .left{width:50px;height:50px;background:#424242 url(../image/left.png) no-repeat;position: absolute;left: 320px;z-index: 40;top:225px;display: none;}
+    a:nth-child(1){left:0;}
+    .left{width:50px;height:50px;background:#424242 url(../image/left.png) no-repeat;position: absolute;left: 580px;z-index: 40;top:225px;display: none;}
     .right{width:50px;height:50px;background:#424242 url(../image/right.png) no-repeat;position: absolute;right: 130px;top:225px;z-index: 40;display: none;}
+}
 }
 
 #f1{height:auto;margin:38px 0 30px 0;overflow: hidden;
@@ -202,8 +205,11 @@ nav{width:100%;height: 40px;background: #222;font:14px/40px "";
 
 #f7{@extend .box;
     .f7-t{@extend .f2-t;}
-    .f7-b{margin-top:10px;position: relative;height:500px;
-        .imgbox{position: absolute;height:auto;text-align: center;
+    .f7-b{margin-top:10px;position: relative;height:500px;overflow: hidden;
+        .imgbox{position: absolute;height:auto;text-align: center;left:1190px;
+            &:nth-child(1){
+                left: 0;
+            }
             p{width:100%;height:100px;position: absolute;left: 0;bottom: 0;background: rgba(255,255,255,0.6);z-index: 30px;
             a{margin:25px 0 10px;font-size: 18px;display: block;
             &:hover{color: #b91c2b;}

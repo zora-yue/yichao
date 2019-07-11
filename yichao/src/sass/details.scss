@@ -1,0 +1,67 @@
+@mixin default {
+    width:1190px;margin: 0 auto;
+}
+#goods{height: 1000px;
+    .default{@include default;
+        h3{font-size:12px;color:#333;padding: 10px 0 10px;}
+        .zuo{float: left;position: relative;
+            .sbox{position: relative;float: left;z-index:99;cursor: crosshair;border:1px solid #ddd;width:398px;height: 398px;
+                img{width:398px;height: 398px;}
+                span{position: absolute;border:1px solid #ddd;left:0;top:0;display: none;background: rgba(255,255,255,0.4)}
+            }            
+            ul{width: 360px;height:64px;
+                li{display: inline-block;width: 64px;height: 64px;margin: 0 10px 0 0;overflow: hidden;cursor: pointer;margin-top:10px;border:2px solid #ddd;
+                img{width: 64px;height:64px;}
+                }
+                li.active{border:2px solid red;}
+            }
+            .bbox{position: absolute;top:0;left:408px;display:none;width:525px;border: 1px solid #999;height: 370px;overflow: hidden;
+                img{position: absolute;}
+            }
+        }
+        .zhong{float: left;
+            h2{font-size: 16px;font-weight: bold;overflow: hidden;padding: 0px 16px;}
+            .money{padding: 20px 16px;
+            span{font-size:14px;color: #999;
+            s{text-decoration: line-through;}
+            }
+            b{font-size: 24px;color: #bc1b0d;font-weight:bold;margin-right: 22px;}
+            }
+            .cc{margin: 0 16px;padding: 16px 0;border-top: 1px dashed #ccc;border-bottom: 1px dashed #ccc;
+                li{margin-top: -10px;color: #333;width: 160px;
+                    float: left;text-align: center;border-right: 1px solid #ccc;
+                &:last-child{border:0;}
+                em{color:#bc1b0d;}
+                }
+            }
+            dl{margin-top: 20px;height: 30px;
+                dt{float: left;line-height: 24px;color: #555;padding: 0px 15px 0px 15px;}
+                dd{float: left;height: 20px;color: #000000;line-height: 20px;padding: 0 10px;margin: 1px 7px 7px 1px;background: #fff;border: 1px solid #e5e5e5;cursor: pointer;}
+            }
+            .yuyue{padding:18px 10px 0 10px;
+                a{display:inline-block;vertical-align: top;
+                &:nth-child(2){background: url(../image/car2.png) no-repeat;border:1px solid #bc1b0d;border-radius: 5px;margin-left: 22px;font:18px/43px "";width: 165px;height: 43px;text-align: center;color: #bc1b0d;}
+                }
+                p{font:12px/20px "";color: #999;
+                i{color: #000;}
+                }
+            }
+            .zhong-b{padding: 18px 0 0 10px;border-top: 1px dashed #eee;font:12px/22px "";
+                p{color: #000;font-weight: bold;}
+                ul{
+                li{float: left;list-style: disc;color: #999;margin-right: 28px;}
+                }
+            }
+        }
+        .you{float: right;background:#f2f2f2;
+            img{width:200px;height:170px;}
+            h3{height: 30px;width: 180px;text-align: left;font-weight: bold;color: #333;margin-top: 10px;
+                font-size: 16px;margin-left: 30px;}
+            p{height: 20px;width: 170px;text-align: left;margin-left: 30px;font-size: 14px;color: #666;}
+            .city2{width: 200px;margin: 20px 20px 0 30px;text-align: left;height: 230px;overflow: auto;font-size: 14px;color: #666;
+            li{float: left; width: 80px;padding: 0 5px;        height: 30px;cursor: pointer;
+            a{color:#333;}}
+            }
+        }
+    }
+}
