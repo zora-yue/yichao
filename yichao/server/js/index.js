@@ -1,7 +1,7 @@
 
 $(function(){
     $("#top").load("common/public.html .ding",function(){
-        new Public;
+        // new Public;
     });
     $("#header").load("common/public.html .tou");
     $("#footer").load("common/public.html .footbox");
@@ -18,6 +18,7 @@ $(function(){
             this.menu=$(".box1");
             this.banner2=$(".banner2");
             this.banner1=$("#banner1").children(".imgbox");
+            this.deng();
             this.init();
             this.hover();
             this.add();
@@ -133,7 +134,8 @@ $(function(){
                 .siblings(".cl-content").css("display","none")
             })
             this.menu.on("mouseout","li",function(){
-                $(this).children(".cl-content").css("display","none")
+                $(this).css({border:"1px solid #ddd"})
+                .children(".cl-content").css("display","none")
             })
 
         }
@@ -283,6 +285,24 @@ $(function(){
                     localStorage.setItem("spId",that.id)
                 }
             })
+        }
+        deng(){
+            this.msg=localStorage.getItem("usermsg")?JSON.parse(localStorage.getItem("usermsg")):[];
+            var num=0;
+                for(var i=0;i<this.msg.length;i++){
+                    if(this.msg[i].onoff==1){
+                        this.shop=localStorage.getItem("shangpin")?JSON.parse(localStorage.getItem("shangpin")):[];
+                        for(var j=0;j<this.shop.length;j++){
+                            num+=parseInt(this.shop[j].num)
+                            console.log(num)
+                        }
+                        $(".car").children("em").html(num);
+
+                    }
+
+                    
+                    
+            }
         }
 
     }

@@ -104,6 +104,11 @@
           right: 0; }
           #top .default ul .top-r .smallcar p {
             padding: 30px; }
+            #top .default ul .top-r .smallcar p:nth-child(1) {
+              display: none; }
+            #top .default ul .top-r .smallcar p::nth-child(2) a {
+              font-weight: bold;
+              color: #6db5f4; }
 
 #header {
   height: 110px; }

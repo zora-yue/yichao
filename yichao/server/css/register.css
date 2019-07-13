@@ -3,7 +3,8 @@
   margin: 0 auto;
   background: #fff;
   overflow: hidden;
-  border: 1px solid #eee; }
+  border: 1px solid #eee;
+  position: relative; }
   #bodyer .box h2 {
     height: 34px;
     font-size: 14px;

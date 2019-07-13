@@ -25,7 +25,7 @@ $(function(){
                 url:"http://localhost:8383/data/img.json",
                 success:function(res){
                     that.res=res;
-                    that.display();
+                    // that.display();
                 }
             })
             $.ajax({

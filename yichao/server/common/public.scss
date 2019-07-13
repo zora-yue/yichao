@@ -41,7 +41,10 @@
         &:hover{color:#aa2e31;background: url(../image/car2.png) no-repeat #fff;height:31px;}
         }
         .smallcar{display:none;position: absolute;background:#fff;top:31px;z-index: 50;width:204px;min-height:130px;right:0;
-        p{padding:30px;}
+        p{padding:30px;
+        &:nth-child(1){display: none;}
+        }
+        
         }
         }
         }

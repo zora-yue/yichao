@@ -27,8 +27,8 @@ $(function(){
             // console.log(this.btn.nextAll("p"))
             for(var i=0;i<this.usermsg.length;i++){
                 if(this.usermsg[i].user==this.user.val()&&this.usermsg[i].pass==this.pass.val()){
-                    console.log(1)
                     this.usermsg[i].onoff=1;
+                    localStorage.setItem("usermsg",JSON.stringify(this.usermsg))
                     this.btn.nextAll("p").html("登录成功，3秒后自动跳转");
                     setTimeout(() => {
                         location.href="index.html";
@@ -36,8 +36,7 @@ $(function(){
                     return;
                 }
             }
-            this.btn.nextAll("p").html("账号或密码错误");
-            this.btn.nextAll("p").css({
+            this.btn.nextAll("p").html("账号或密码错误").css({
                 color:"red"
             })
 

@@ -104,6 +104,8 @@
           right: 0; }
           #top .default ul .top-r .smallcar p {
             padding: 30px; }
+            #top .default ul .top-r .smallcar p:nth-child(1) {
+              display: none; }
 
 #header {
   height: 110px; }
