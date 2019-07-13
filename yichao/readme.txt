@@ -1,0 +1,9 @@
+项目名：亿超眼镜
+GitHub地址：https://github.com/zora-yue/yichao.git；
+Server是根目录，index.html为主页面。首页有二、三级菜单，轮播图，楼梯缓动等效果。商品图上移显示评论，点击显示商品详情页。
+商品详情页的主图根据商品ID所变换。缺点放大镜效果不完善，因为json数据没做好。
+注册页面使用正则验证，注册成功后弹出注册成功框，3秒后自动跳转登录页面。
+登录页面使用正则验证，登录成功后自动跳转首页。首页的购物车登录成功后显示购物车内的数量。购物车内的商品还没写。
+图片地址：server/data/img.json;
+城市名数据：server/data/city.json;
+三级菜单数据：server/data/menu.json;ˇˇ
